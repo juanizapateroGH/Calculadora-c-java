@@ -1,4 +1,4 @@
-# SimpleCalculator
+# Calculadora
 
 Calculadora Simple con ambos modos, Light and Dark
 
