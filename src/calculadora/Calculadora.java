@@ -13,10 +13,12 @@ import javax.script.ScriptEngineManager;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
+
 public class Calculadora extends javax.swing.JFrame {
 ScriptEngineManager sem = new ScriptEngineManager();
    ScriptEngine se = sem.getEngineByName("JavaScript");
     public Calculadora() {
+        int c;
         initComponents();
         setLocationRelativeTo(null);
         setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/images/calculadora.png")));
